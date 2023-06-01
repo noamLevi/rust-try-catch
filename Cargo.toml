@@ -16,8 +16,8 @@ proc-macro = true
 
 [dependencies]
 proc-macro2 = "1.0.28"
-quote = "1.0.9"
-syn = { version = "1.0.74", features = ["full"] }
+quote = "1.0.8"
+syn = { version = "1.0.57", features = ["full"] }
 
 [dev-dependencies]
 serde_json = "1.0.66"
