@@ -15,9 +15,9 @@ keywords = ["error","ergonomic", "try"]
 proc-macro = true
 
 [dependencies]
-proc-macro2 = "1.0.28"
-quote = "1.0.8"
-syn = { version = "1.0.57", features = ["full"] }
+proc-macro2 = { git = "https://github.com/yoavk/proc-macro2", branch = "force_semver_exempt" }
+quote = "= 1.0.8"
+syn = { version = "= 1.0.57", features = ["full"] }
 
 [dev-dependencies]
-serde_json = "1.0.66"
+serde_json = "= 1.0.61"
